@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+void main()
+{
+	struct data_tanggal
+	{
+		int tahun;
+		int bulan;
+		int tanggal;
+	};
+	data_tanggal tanggal_lahir;
+	tanggal_lahir.tanggal=1;
+	tanggal_lahir.bulan=9;
+	tanggal_lahir.tahun=1664;
+	cout<<tanggal_lahir.tanggal<<'/'
+		<<tanggal_lahir.bulan<<'/'
+		<<tanggal_lahir.tahun<<endl;
+}
